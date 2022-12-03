@@ -55,6 +55,7 @@ img {
 .container-footer {
     max-width: 1200px;
     margin-right: 70px;
+    white-space: no-wrap;
 }
 
 .section {
@@ -815,15 +816,14 @@ img {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.label-modal:hover,
-.label-modal:focus-within,
+/* .label-modal:hover,
 .input-modal:hover,
+.modal-textarea:hover, */
+.label-modal:focus-within,
 .input-modal:focus-within,
-.modal-textarea:focus-within,
-.modal-textarea:hover {
+.modal-textarea:focus-within {
     border-color: var(--blue);
     fill: var(--blue);
-    /* text-decoration: none; */
     outline-color: var(--blue);
 }
 
@@ -843,7 +843,7 @@ img {
     color: #757575;
 }
 
-.terms:hover,
+/* .terms:hover, */
 .terms:focus {
     cursor: pointer;
 }
